@@ -6,7 +6,7 @@ import {
 function Body() {
     return (
         <Grid minW="100wh">
-            <Heading paddingTop={{base:'10px', md:'15px'}} textColor={'purple.900'} fontFamily="">SIR0X FINANCE</Heading>
+            <Heading paddingTop={{base:'10px', md:'15px'}} textColor={'teal.900'} fontFamily="">SIROEXMON LABS</Heading>
             {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
         </Grid>
     )

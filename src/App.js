@@ -7,7 +7,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" bgGradient="linear(to-tr, purple.100, pink.400)">
+        <Grid minH="100vh" bgGradient="linear(to-tr, gray.50, teal.400)">
           <Header/>
           <Body/>
           <Footer/>

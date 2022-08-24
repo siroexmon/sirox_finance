@@ -10,9 +10,6 @@ import {
 import { Stack } from '@chakra-ui/react';
 import { useState } from 'react';
 
-const request = require('request-promise');
-const BASE_URL = `https://cmfqddlolbxx.execute-api.eu-west-2.amazonaws.com/default`
-
 function Hero() {
     const [isWaitingForResponse, setIsWaitingForResponse] = useState(false);
     const [addresses, setAddresses] = useState("");
@@ -27,16 +24,16 @@ function Hero() {
           <Heading
           fontWeight={700}
           fontSize={{base: '4xl', sm: '5xl', md: '6xl'}}
-          lineHeight={'110%'}>
-            Bringing next generation debt markets<br />
-            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, purple.600,pink.900)"
+          lineHeight={'110%'}
+      color = {'blue.900' }>
+            Exploring the overlap between<br />
+            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, green.600,teal.600)"
   bgClip="text">
-             using blockchain 
+            zk-tech and financial marketplaces 
             </Text>
           </Heading>
           <Text color = {'blue.900'}>
-            We provide tooling and infrastructure for high-growth companies to access more efficient global debt markets. <br/>
-            Enjoy blockchain efficiency and transparency without being a so-called crypto-expert
+            Currently building the tooling and infrastructure for high-growth companies to access more efficient global debt markets. <br/>
           </Text>
           <Stack 
           direction={'column'}
@@ -44,33 +41,14 @@ function Hero() {
           align={'center'}
           alignSelf={'center'}
           position={'relative'}>
-              <Text color = {'purple.700'} fontWeight="extrabold">
-                Are you a business looking for debt financing? <br/>
+              <Text color = {'teal.700'} fontWeight="extrabold">
       Get in touch!
               </Text>
-              <Editable 
-              bgColor="white"
-              rounded={'full'}
-              placeholder="Your email"
-              isDisabled={isWaitingForResponse}
-              startWithEditView={true}
-              onChange={(e) => setAddresses(e)}>
-                <EditablePreview />
-                <EditableInput />
-              </Editable>
-              <Button 
-              isLoading={isWaitingForResponse}
-              loadingText="Loading..."
-              colorScheme={'purple'}
-              bg={'purple.800'}
-              rounded={'full'}
-              px={6}
-              _hover={{
-                bg: 'purple.400'
-              }}>
-               Contact me! 
-              </Button>
-              <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
+               <Text color = {'gray.700'} fontWeight="extrabold">
+                hey@siroexmon.xyz
+              </Text>
+ 
+               <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
                 About us 
             </Button> 
         </Stack>
