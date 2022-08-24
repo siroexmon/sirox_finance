@@ -2,17 +2,11 @@ import {
     Box,
     Text,
     Heading,
-    Button,
-    EditablePreview,
-    EditableInput,
-    Editable
+    Button
   } from '@chakra-ui/react';
 import { Stack } from '@chakra-ui/react';
-import { useState } from 'react';
 
 function Hero() {
-    const [isWaitingForResponse, setIsWaitingForResponse] = useState(false);
-    const [addresses, setAddresses] = useState("");
     
     return (
     <>

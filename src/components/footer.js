@@ -1,14 +1,10 @@
 import {
     Box,
-    chakra,
     Container,
-    Link,
     Stack,
     Text,
     useColorModeValue,
-    VisuallyHidden,
   } from '@chakra-ui/react';
-  import { ReactNode } from 'react';
   
 
 function Footer() {
