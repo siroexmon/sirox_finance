@@ -20,10 +20,10 @@ function Hero() {
         as={Box}
         textAlign={'center'}
         spacing={{ base: 8, md: 14}}
-        py={{ base: 20, md: 36}}>
+        py={{ base: 20, md: 'md'}}>
           <Heading
           fontWeight={700}
-          fontSize={{base: '4xl', sm: '5xl', md: '6xl'}}
+          fontSize={{base: '4xl', md: '6xl'}}
           lineHeight={'110%'}
       color = {'blue.900' }>
             Exploring the overlap between<br />
@@ -33,7 +33,7 @@ function Hero() {
             </Text>
           </Heading>
       <Center> 
-      <Stack spacing={5} direction={['column', 'row']} >
+      <Stack spacing={5} direction={{base:'column', md:'row'}} >
           <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='300px' display='flex' flexDirection="column" alignItems="center">
               <Image src={"https://1000marcas.net/wp-content/uploads/2020/02/logo-Google-500x281.png"} alt={"logo"} width='80%'/>
               <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>SIROX FINANCE</Text>
