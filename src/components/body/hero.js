@@ -35,7 +35,7 @@ function Hero() {
       <Center> 
       <Stack spacing={5} direction={{base:'column', md:'row'}} >
           <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='300px' display='flex' flexDirection="column" alignItems="center">
-              <Image src={"https://1000marcas.net/wp-content/uploads/2020/02/logo-Google-500x281.png"} alt={"logo"} width='80%'/>
+              <Image src={"/sir0x_logo.png"} alt={"logo"} width='80%'/>
               <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>SIROX FINANCE</Text>
               <Divider orientation='horizontal'/>
               <Text as={'span'} fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>Building the infrastructure for next-generation debt facilities.</Text>
