@@ -26,31 +26,30 @@ function Hero() {
           fontSize={{base: '4xl', md: '6xl'}}
           lineHeight={'110%'}
       color = {'blue.900' }>
-            Exploring the overlap between<br />
-            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, green.600,teal.600)"
+            Enabling pre-Series C startups to raise debt facilities by <br/>
+            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, purple.800,blue.400)"
   bgClip="text">
-            crypto and financial markets
+            leveraging blockchain infrastructure
             </Text>
           </Heading>
       <Center> 
       <Stack spacing={5} direction={{base:'column', md:'row'}} >
-          <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='300px' display='flex' flexDirection="column" alignItems="center">
-              <Image src={"/sir0x_logo.png"} alt={"logo"} width='80%'/>
-              <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>SIROX FINANCE</Text>
+          <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='300px' display='flex' flexDirection="column" alignItems="center" paddingBottom={'3'}>
+              <Image src={"https://icon-library.com/images/lower-price-icon/lower-price-icon-8.jpg"} maxHeight='150px' alt={""} paddingTop={'5'} paddingBottom={'3'}/>
+            <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>LOWER COSTS</Text>
               <Divider orientation='horizontal'/>
-              <Text as={'span'} fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>Building the infrastructure for next-generation debt facilities.</Text>
+            <Text fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>Forget the long list of agents, Spreadsheets and PDFs. Say hello to accounting and payments enforced by blockchain.</Text>
           </Box>
-          <Box width='xs'  boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' borderRadius='md' height='300px' display='flex' overflow='hidden' flexDirection="column" alignItems="center">
-              <Image src={"https://public.bnbstatic.com/static/academy/uploads/50a9e07a73cd4117a4979e78b8409913.png"} maxHeight='150px' alt={"logo"} width='100%'/>
-            <Text paddingTop={1} paddingBottom={3}fontWeight='bold'>YIELD FARMING</Text>
-            <Text fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>We build our own smart contracts and tooling to extract yield from markets.</Text>
+          <Box width='xs'  boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' borderRadius='md' height='300px' display='flex' overflow='hidden' flexDirection="column" alignItems="center" paddingBottom={'3'}>
+              <Image src={"https://cdn-icons-png.flaticon.com/512/2463/2463956.png"} maxHeight='150px' alt={""} paddingTop={'5'} paddingBottom={'3'}/>
+              <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>BETTER TERMS</Text>
+              <Text as={'span'} fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>Global access and lower collaboration costs means that borrowers can access to a wider set of lenders, reducing lenders' bargaining power</Text>
           </Box>
 
-          <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='300px' display='flex' flexDirection="column" alignItems="center">
-              <Image src={"https://i2f9g7w7.rocketcdn.me/wp-content/uploads/2018/04/illustration.png"} height='150px' alt={"logo"} width='80%'/>
-          <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>ANGEL INVESTING</Text>
-          <Text fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>We provide angel tickets in interesting projects where our experience might be valuable.
-      Currently interested in on-chain options and verifiable computation</Text>
+          <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='300px' display='flex' flexDirection="column" alignItems="center" paddingBottom={'3'}>
+              <Image src={"https://cdn0.iconfinder.com/data/icons/web-hosting-technicons-vol-1/256/Fast_Processing-512.png"} height='150px' alt={""} paddingTop={'5'} paddingBottom={'3'}/>
+          <Text paddingTop={1} paddingBottom={3} fontWeight='bold'>FASTER EXECUTION</Text>
+          <Text fontSize={{base: 'md', sm: 'md', md:'md'}} paddingLeft={2} paddingRight={2}>Debt facility standarization and programmability allows us to set you up in a matter of days, instead of months</Text>
       </Box>
     </Stack>
       </Center>
@@ -64,7 +63,7 @@ function Hero() {
       Get in touch!
               </Text>
                <Text color = {'gray.700'} fontWeight="extrabold">
-                hey@siroexmon.xyz
+                hey@sirox.finance
               </Text>
                <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
                 About us 
