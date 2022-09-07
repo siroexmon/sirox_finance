@@ -45,7 +45,6 @@ function Hero() {
               <Text paddingTop={1} paddingBottom={1} fontWeight='bold'>BETTER TERMS</Text>
               <Text as={'span'} fontSize={{base: 'sm', sm: 'sm', md:'sm'}} paddingLeft={2} paddingRight={2}>Global access and lower collaboration costs means that borrowers can access to a wider set of lenders, reducing lenders' bargaining power</Text>
           </Box>
-
           <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='290px' display='flex' flexDirection="column" alignItems="center" paddingBottom={'1'}>
               <Image src={"https://cdn0.iconfinder.com/data/icons/web-hosting-technicons-vol-1/256/Fast_Processing-512.png"} height='150px' alt={""} paddingTop={'5'} paddingBottom={'3'}/>
           <Text paddingTop={1} paddingBottom={1} fontWeight='bold'>FASTER EXECUTION</Text>
