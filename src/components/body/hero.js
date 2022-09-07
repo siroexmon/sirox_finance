@@ -3,10 +3,7 @@ import {
     Text,
     Heading,
     Divider,
-    AspectRatio,
-    SimpleGrid,
     Image,
-    HStack,
     Center,
     Button
   } from '@chakra-ui/react';
@@ -20,19 +17,22 @@ function Hero() {
         textAlign={'center'}
         spacing={{ base: 4, md: 8}}
         py={{ base: 10, md: 'md'}}>
-          <Heading
+      <Heading
           fontWeight={700}
           fontSize={{base: '4xl', md: '6xl'}}
           lineHeight={'110%'}
       color = {'blue.900' }>
-            Blockchain-enabled debt facilities for<br/>
-            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, purple.800,blue.400)"
-  bgClip="text">
-            pre-Series C startups
+            Blockchain-enabled debt facilities for <br/>
+            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, purple.800,blue.400)" bgClip="text">
+              pre-Series C startups
             </Text>
-          </Heading>
-      <Text fontSize={{base:'md'}}> Leveraging blockchain as infrastructure to offer Debt Facilities as a Service</Text>
-      <Center> 
+      </Heading>
+      <Box marginLeft="auto" marginRight="auto">
+      <Text fontSize={{base:'md'}} width={"75vw"} maxWidth={"800px"} marginLeft="auto" marginRight="auto" paddingBottom={{base:"0", xs:'5'}}>
+        We are transforming Debt Facilities' Excels and PDFs into standard and reusable pieces of blockchain code so any sustainable business can raise a (secured) line of credit at a fraction of the cost
+       </Text>
+      </Box>
+     <Center direction='column'> 
       <Stack spacing={5} direction={{base:'column', md:'row'}} >
           <Box width='xs' boxShadow='xl' _hover={{boxShadow: '2xl'}} bg='gray.200' rounded={10} height='290px' display='flex' flexDirection="column" alignItems="center" paddingBottom={1}>
               <Image src={"https://icon-library.com/images/lower-price-icon/lower-price-icon-8.jpg"} maxHeight='150px' alt={""} paddingTop={'5'} paddingBottom={'3'}/>
@@ -59,7 +59,7 @@ function Hero() {
           alignSelf={'center'}
           position={'relative'}>
               <Text color = {'blue.700'} fontWeight="extrabold">
-      Get in touch!
+      Join us!
               </Text>
                <Text color = {'gray.700'} fontWeight="extrabold">
                 hey@sirox.finance
