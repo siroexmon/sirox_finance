@@ -1,7 +1,7 @@
 {
-  "name": "SIROEXMON_LABS",
+  "name": "sirox.finance",
   "version": "0.1.0",
-  "homepage": "https://siroexmon.github.io",
+  "homepage": "https://sirox.finance",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^1.2.9",
