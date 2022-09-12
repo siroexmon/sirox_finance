@@ -64,9 +64,6 @@ function Hero() {
                <Text color = {'gray.700'} fontWeight="extrabold">
                 hey@sirox.finance
               </Text>
-               <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
-                About us 
-            </Button> 
         </Stack>
       </Stack>
     </>)
