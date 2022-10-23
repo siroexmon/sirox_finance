@@ -1,7 +1,7 @@
 {
-  "name": "sirox.finance",
+  "name": "fence.finance",
   "version": "0.1.0",
-  "homepage": "https://sirox.finance",
+  "homepage": "https://fence.finance",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^1.2.9",
