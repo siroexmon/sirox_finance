@@ -21,9 +21,9 @@ function Hero() {
           fontWeight={700}
           fontSize={{base: '4xl', md: '6xl'}}
           lineHeight={'110%'}
-      color = {'blue.900' }>
+      color = {'#003157' }>
             Blockchain-enabled debt facilities for <br/>
-            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, purple.800,blue.400)" bgClip="text">
+            <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, #016db6,#003157)" bgClip="text">
               pre-Series C startups
             </Text>
       </Heading>
@@ -58,11 +58,11 @@ function Hero() {
           align={'center'}
           alignSelf={'center'}
           position={'relative'}>
-              <Text color = {'blue.700'} fontWeight="extrabold">
+              <Text color = {'#003157'} fontWeight="extrabold">
       Join us!
               </Text>
-               <Text color = {'gray.700'} fontWeight="extrabold">
-                hey@sirox.finance
+               <Text color = {'#016db6'} fontWeight="extrabold">
+                hey@fence.finance
               </Text>
         </Stack>
       </Stack>

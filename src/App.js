@@ -7,7 +7,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" marginBottom={'0px'}>
-        <Flex minH="100vh" flexDirection="column" justifyContent="space-between" bgGradient="linear(to-tr, gray.50, blue.400)">
+        <Flex minH="100vh" flexDirection="column" justifyContent="space-between" bgGradient="linear(to-tr, gray.50, #f3f3f3)" color="#003157">
           <Header/>
           <Body/>
           <Footer/>
