@@ -24,7 +24,7 @@ function Hero() {
       color = {'#003157' }>
             Blockchain-enabled debt facilities for <br/>
             <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, #016db6,#003157)" bgClip="text">
-              pre-Series C startups
+              everyone
             </Text>
       </Heading>
       <Box marginLeft="auto" marginRight="auto">
