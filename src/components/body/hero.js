@@ -22,14 +22,14 @@ function Hero() {
           fontSize={{base: '4xl', md: '6xl'}}
           lineHeight={'110%'}
       color = {'#003157' }>
-            Blockchain-enabled debt facilities for <br/>
+            The OS for <br/>
             <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, #016db6,#003157)" bgClip="text">
-              everyone
+              asset-backed debt facilities
             </Text>
       </Heading>
       <Box marginLeft="auto" marginRight="auto">
       <Text fontSize={{base:'md'}} width={"75vw"} maxWidth={"800px"} marginLeft="auto" marginRight="auto" paddingBottom={{base:"0", xs:'5'}}>
-        We are transforming Debt Facilities' Excels and PDFs into standard and reusable pieces of blockchain code so any sustainable business can raise a (secured) line of credit at a fraction of the cost
+      We are transforming Debt Facilities’ spreadsheets and PDFs into standard and reusable pieces of code to automate capital and asset flows, reducing 70% of the operating costs and providing real-time monitoring
        </Text>
       </Box>
      <Center direction='column'> 
