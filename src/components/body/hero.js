@@ -4,8 +4,7 @@ import {
     Heading,
     Divider,
     Image,
-    Center,
-    Button
+    Center
   } from '@chakra-ui/react';
 import { Stack } from '@chakra-ui/react';
 
@@ -22,7 +21,7 @@ function Hero() {
           fontSize={{base: '4xl', md: '6xl'}}
           lineHeight={'110%'}
       color = {'#003157' }>
-            The OS for <br/>
+            The Os for <br/>
             <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, #016db6,#003157)" bgClip="text">
               asset-backed debt facilities
             </Text>
