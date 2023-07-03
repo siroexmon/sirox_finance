@@ -5,6 +5,8 @@ import Body from './components/body';
 import Header from './components/header';
 import Footer from './components/footer';
 import PrivacyPage from './components/PrivacyPage';
+import CookiePage from './components/CookiePage';
+import TermsPage from './components/TermsPage';
 
 function App() {
   return (
@@ -18,6 +20,14 @@ function App() {
               <Route
                   path="/privacy"
                   component = {PrivacyPage}
+                />
+              <Route
+                  path="/terms"
+                  component = {TermsPage}
+                />
+              <Route
+                  path="/cookie"
+                  component = {CookiePage}
                 />
             </Switch>
             <Footer />
