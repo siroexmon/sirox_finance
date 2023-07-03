@@ -4,18 +4,6 @@
   "homepage": "https://fence.finance",
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "^1.2.9",
-    "@emotion/react": "^11.10.0",
-    "@emotion/style": "^0.8.0",
-    "@emotion/styled": "^11.10.0",
-    "framer-motion": "^7.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^5.3.4",
-    "react-scripts": "^5.0.1",
-    "serve": "^14.0.1",
-    "typewriter-effect": "^2.19.0",
-    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
