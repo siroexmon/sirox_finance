@@ -15,7 +15,10 @@ function App() {
             <Header />
             <Switch>
               <Route exact path="/" component={Body} />
-              <Route path="/privacy" component={PrivacyPage} />
+              <Route
+                  path="/privacy"
+                  component = {PrivacyPage}
+                />
             </Switch>
             <Footer />
           </Flex>

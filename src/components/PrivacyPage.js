@@ -1,18 +1,13 @@
-import React from 'react';
-import { Box, Heading, Text } from '@chakra-ui/react';
+import React, { useEffect } from 'react';
 
 function PrivacyPage() {
-  return (
-    <Box>
-      <Heading as="h1" size="xl" mb="4">
-        Privacy Policy
-      </Heading>
-      <Text>
-        This is the privacy policy content.
-      </Text>
-      {/* Add more content as needed */}
-    </Box>
-  );
+  const fileUrl = 'https://fence-assets.s3.eu-central-1.amazonaws.com/t%26c_privacy/fence_privacy_policy_20230703.pdf';
+
+  useEffect(() => {
+    window.location.href = fileUrl;
+  }, [fileUrl]);
+
+  return null;
 }
 
 export default PrivacyPage;
