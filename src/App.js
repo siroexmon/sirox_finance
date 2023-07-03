@@ -9,7 +9,7 @@ import PrivacyPage from './components/PrivacyPage'
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Router>
+      <Router basename="/">
         <Box textAlign="center" marginBottom={'0px'}>
           <Flex minH="100vh" flexDirection="column" justifyContent="space-between" bgColor="#f3f3f3" color="#003157">
             <Header />
