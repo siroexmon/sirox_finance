@@ -21,7 +21,7 @@ function Hero() {
           fontSize={{base: '4xl', md: '6xl'}}
           lineHeight={'110%'}
       color = {'#003157' }>
-            The Os for <br/>
+            The OS for <br/>
             <Text as={'span'} fontWeight="extrabold" bgGradient="linear(to-l, #016db6,#003157)" bgClip="text">
               asset-backed debt facilities
             </Text>
